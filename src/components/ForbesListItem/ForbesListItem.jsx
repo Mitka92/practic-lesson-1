@@ -9,7 +9,7 @@ export const ForbesListItem = ({ avatar, name, capital, isIncrease }) => {
       <h3 className={style.title}>{name}</h3>
       <span className={style.capital}>
         {capital}
-        35.7 <BiDollarCircle color="#2196f3" size={22} />
+        <BiDollarCircle color="#2196f3" size={22} />
         {isIncrease ? <FcBullish /> : <FcBearish />}
       </span>
     </>
